@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+*/
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  /*Primary*/
+  --Orange: hsl(25, 97%, 53%);
+  /*Neutral*/
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Blue: hsl(200, 20%, 18%);
+  --Dark-Blue: hsl(215, 22%, 15%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  /*Body Copy*/
+  --Font-size: 15px;
+  --Font-Family: "Red Hat Display";
+  --font-Weights-normal: 400;
+  --font-Weights-bold: 700;
+}
+body {
+  font-family: var(--Font-Family), sans-serif;
+  font-size: var(--Font-size);
+  font-weight: var(--font-Weights-normal);
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--White);
+  background-color: var(--Very-Dark-Blue);
+  width: 100%;
+  min-height: 100vh;
+}
